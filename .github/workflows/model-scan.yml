@@ -43,7 +43,7 @@ jobs:
       - name: 🛠️ Install Dependencies (Dynamic Auth)
         run: |
           # 1. Install jq (needed to parse the token response)
-          sudo apt-get install -y jq
+          #sudo apt-get install -y jq
 
           # 2. Make the script executable
           chmod +x getPYPIurl.sh
